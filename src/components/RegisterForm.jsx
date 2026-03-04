@@ -1,7 +1,7 @@
 // Registration form extracted from charity-minds-2 Register page and converted to JSX.
 export default function RegisterForm() {
   return (
-    <main className="flex flex-grow items-center justify-center px-6 py-8">
+    <section className="flex flex-grow items-center justify-center px-6 py-8" aria-label="Register form section">
       <div className="w-full max-w-md rounded-lg bg-white p-8 shadow-lg">
         <h1 className="mb-6 text-center text-2xl font-bold">Create Account</h1>
 
@@ -145,12 +145,12 @@ export default function RegisterForm() {
         <div className="mt-4 text-center text-gray-600">
           <p>
             Already have an account?{' '}
-            <a href="#" className="text-blue-500 hover:underline">
+            <a href="/login" className="text-blue-500 hover:underline">
               Login
             </a>
           </p>
         </div>
       </div>
-    </main>
+    </section>
   )
 }
