@@ -6,9 +6,9 @@ import Footer from '../components/Footer.jsx'
 export default function RegisterPage() {
   return (
     <main className="flex min-h-screen flex-col bg-gray-100 text-gray-900">
-      <Header />
+      <Header activePage="register" />
       <RegisterForm />
-      <Footer />
+      <Footer pageName="Register" />
     </main>
   )
 }

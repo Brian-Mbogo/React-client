@@ -1,14 +1,14 @@
-import LoginHeader from '../components/loginHeader.jsx'
+import Header from '../components/Header.jsx'
 import LoginForm from '../components/loginForm.jsx'
-import LoginFooter from '../components/loginFooter.jsx'
+import Footer from '../components/Footer.jsx'
 
 // Login page container mirrors the old page body styles.
 export default function LoginPage() {
   return (
     <main className="flex min-h-screen flex-col bg-gray-100 text-gray-900">
-      <LoginHeader />
+      <Header activePage="login" />
       <LoginForm />
-      <LoginFooter />
+      <Footer pageName="Login" />
     </main>
   )
 }
